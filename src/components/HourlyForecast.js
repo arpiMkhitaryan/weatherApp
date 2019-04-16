@@ -6,7 +6,6 @@ import {routes} from '../config';
 import {Icon} from 'antd';
 import {convertToCelsius} from './Herlpers';
 import '../App.css';
-import WeatherGraphic from './WeatherGraphic';
 
 const {HOME_PAGE} = routes;
 
@@ -66,16 +65,12 @@ class HourlyForecast extends Component {
                             </div>)
                     }) : <Icon type="loading" style={{
                         fontSize: '3em',
-                        color: '#e69e1b45',
+                        color: 'orange',
                         margin: 'auto',
                         width: '100%',
                         height: '100%'
                     }}/>}
                 </div>
-                <div>
-                    <WeatherGraphic/>
-                </div>
-
             </React.Fragment>
         );
     }

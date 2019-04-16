@@ -17,13 +17,6 @@ html, body {
   justify-content: center;
   padding: 20%;
   background-color: black;
-  /* background: #bbbbb18c;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  padding: 2em;
-  transform: translate(-50%, -50%); */
- 
 }
 
 .weather-weekday{
@@ -33,15 +26,15 @@ html, body {
   width: 100%;
 }
 .weather-item{
-  border: 3px solid #e69e1ba8;
+  border: 3px solid orange;
   padding: 1em;
   border-radius: 1em;
   margin-right: 3em;
-  color:#e69e1ba8;
+  color: orange;
 }
 
 .weather-container a :hover{
-  background-color: #e69e1b45;
+  background-color: orange;
   color:black
 }
 .container{
@@ -62,7 +55,7 @@ html, body {
   text-align: start;
 }
 .max-temp{
-  background: #e69e1ba8;
+  background: orange;
   border-radius: 0.2em;
   padding: 0.3em;
   color: white;
