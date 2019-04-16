@@ -1,0 +1,78 @@
+@import '~antd/dist/antd.css';
+html, body {
+  margin:0;
+  padding:0;
+}
+.App {
+  text-align: center;
+  height: 100%
+}
+.app{
+  height:calc( 100vh + 50px );
+  width: 100%;
+  background-color: black;
+}
+.weather-container{
+  display: flex;
+  justify-content: center;
+  padding: 20%;
+  background-color: black;
+  /* background: #bbbbb18c;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 2em;
+  transform: translate(-50%, -50%); */
+ 
+}
+
+.weather-weekday{
+  text-align: center
+}
+.weather-icon img{
+  width: 100%;
+}
+.weather-item{
+  border: 3px solid #e69e1ba8;
+  padding: 1em;
+  border-radius: 1em;
+  margin-right: 3em;
+  color:#e69e1ba8;
+}
+
+.weather-container a :hover{
+  background-color: #e69e1b45;
+  color:black
+}
+.container{
+  display: flex;
+  width: 50%;
+  background-color: #d3d3d3a6;
+  border: 1px solid #1915153b;
+  border-radius: 0.6em;
+  margin-bottom: 1em;
+  padding: 0.4em
+}
+.right-section{
+  margin-right: 7em;
+  display: flex;
+  align-items: center;
+}
+.left-section{
+  text-align: start;
+}
+.max-temp{
+  background: #e69e1ba8;
+  border-radius: 0.2em;
+  padding: 0.3em;
+  color: white;
+  margin-top: 0.3em
+}
+.min-temp{
+  background: #797373;
+  border-radius: 0.2em;
+  padding: 0.3em;
+  color: white;
+  margin-top: 0.3em;
+  margin-right: 0.7em;
+}
